@@ -3,7 +3,7 @@ import mobileIllustration from './assets/mobile-development.svg'
 import apiIllustration from './assets/api-architecture.svg'
 import './App.css'
 
-const linkedInUrl = 'https://www.linkedin.com/in/fernosha-alfaridzi181047241/'
+const linkedInUrl = 'https://www.linkedin.com/in/fernosha-alfaridzi-181047241/'
 
 const personalDetails = [
   ['Full Name', 'Fernosha Al Faridzi'],

@@ -3,13 +3,15 @@ import mobileIllustration from './assets/mobile-development.svg'
 import apiIllustration from './assets/api-architecture.svg'
 import './App.css'
 
+const linkedInUrl = 'https://www.linkedin.com/in/fernosha-alfaridzi181047241/'
+
 const personalDetails = [
   ['Full Name', 'Fernosha Al Faridzi'],
   ['Place / Date of Birth', 'Jakarta, 01 July 2000'],
   ['Address', 'Jl. Delima 3 No. 37 RT 003 RW 007, Parung Panjang, Bogor, Jawa Barat'],
   ['Phone', '+62 859-5977-3546'],
   ['Email', 'fernosa12@gmail.com'],
-  ['LinkedIn', 'linkedin.com/in/fernosha-alfaridzi181047241'],
+  ['LinkedIn', linkedInUrl],
   ['Nationality', 'Indonesian'],
   ['Marital Status', 'Single'],
 ]
@@ -153,7 +155,7 @@ function App() {
                 <div className="d-flex flex-wrap gap-3">
                   <a
                     className="btn btn-primary"
-                    href="https://www.linkedin.com/in/fernosha-alfaridzi181047241/"
+                    href={linkedInUrl}
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -241,7 +243,7 @@ function App() {
                           <a href="mailto:fernosa12@gmail.com">{value}</a>
                         ) : label === 'LinkedIn' ? (
                           <a
-                            href="https://www.linkedin.com/in/fernosha-alfaridzi181047241/"
+                            href={linkedInUrl}
                             target="_blank"
                             rel="noreferrer"
                           >

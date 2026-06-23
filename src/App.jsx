@@ -5,6 +5,7 @@ import './App.css'
 
 const linkedInUrl = 'https://www.linkedin.com/in/fernosha-alfaridzi-181047241/'
 
+/*
 const personalDetails = [
   ['Full Name', 'Fernosha Al Faridzi'],
   ['Place / Date of Birth', 'Jakarta, 01 July 2000'],
@@ -15,6 +16,7 @@ const personalDetails = [
   ['Nationality', 'Indonesian'],
   ['Marital Status', 'Single'],
 ]
+*/
 
 const experiences = [
   {
@@ -227,39 +229,13 @@ function App() {
           </div>
         </section>
 
-        {/* Personal Details Section */}
-        <section className="section-block section-muted">
-          <div className="container">
-            <p className="eyebrow">Personal Details</p>
-            <h2 className="section-title">Profile information</h2>
-            <div className="table-responsive content-card">
-              <table className="table align-middle mb-0">
-                <tbody>
-                  {personalDetails.map(([label, value]) => (
-                    <tr key={label}>
-                      <th scope="row">{label}</th>
-                      <td>
-                        {label === 'Email' ? (
-                          <a href="mailto:fernosa12@gmail.com">{value}</a>
-                        ) : label === 'LinkedIn' ? (
-                          <a
-                            href={linkedInUrl}
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            {value}
-                          </a>
-                        ) : (
-                          value
-                        )}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </section>
+        {/*
+          Personal Details Section hidden temporarily.
+
+          <section className="section-block section-muted">
+            ...
+          </section>
+        */}
 
         {/* Work Experience Section */}
         <section id="experience" className="section-block">
